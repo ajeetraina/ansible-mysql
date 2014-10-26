@@ -1,0 +1,14 @@
+---
+# Common role playbook
+- hosts: all
+  tasks: []
+ 
+- hosts: 10.94.214.194 
+  sudo: yes
+  roles:
+    - db
+
+- hosts: 10.94.214.196
+  sudo: yes
+  roles:
+    - web

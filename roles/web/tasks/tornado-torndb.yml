@@ -1,0 +1,4 @@
+---
+
+ - pip: name=tornado
+ - pip: name=torndb

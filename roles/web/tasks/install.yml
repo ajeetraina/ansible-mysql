@@ -1,0 +1,8 @@
+---
+
+
+- name: Install web
+  apt: name={{ item }} state=latest
+  with_items:
+    - python-pip
+    - python-mysqldb
